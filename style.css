@@ -1,0 +1,369 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+.Formclass{
+    background-color: white;
+}
+.nameclass{
+    background-color: rgb(244, 243, 243);
+    border: 4px solid white;
+    border-radius: 15px;
+}
+.naam{
+    color: white;
+    background-color: #000000;
+    border-radius: 20px;
+    border: 2px solid white;
+    overflow: hidden;
+    height: 300px;
+}
+#img1{
+    width: 130px;
+    height: 150px;
+    position: relative;
+    left: 30px;
+    transition: 0.3s ease-in-out;
+    transform-origin: bottom;
+}
+#img1:hover{
+    transform: scaleY(1.7) scaleX(1.7) translateY(10%); 
+}
+.naam p {
+    width: 650px;
+    height: 100px;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    left: 620px;
+    bottom: 170px;
+}
+
+.email{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 300PX;
+    overflow: hidden;
+}
+.emailclass{
+    border-radius: 15px;
+    border: 1px solid black;
+    position: relative;
+    left: 250px;
+}
+#img2{
+    width: 130px;
+    height: 180px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    transform-origin: bottom;
+    position: relative;
+    top: 50px;
+    right: 150px;
+}
+#img2:hover{
+    transform: scaleY(1.5) scaleX(1.5) translate(0%) ;
+}
+.email p{
+    width: 650px;
+    height: 100px;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    left: 600px;
+    bottom: 170px;
+}
+.phoneclass{
+    border: 2px solid white;
+    border-radius: 15px;
+    position: relative;
+    left: 16px;
+}
+.phone{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    height: 310px;
+}
+#img3{
+    position: relative;
+    left: 50px;
+    top: 62px;
+    width: 170px; 
+    height: 170px;
+    transform-origin: bottom;
+    transition: 0.3s ease-in-out;
+}
+#img3:hover{
+    transform: scaleY(1.8) scaleX(1.8) translate(0%) ;
+}
+.phone p{
+    width: 650px;
+    height: 100px;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    left: 600px;
+    bottom: 170px;
+}
+.date{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    height: 310px;
+}
+.dateclass{
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+    left: 350px;
+}
+.date p{
+    width: 650px;
+    height: 100px;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    left: 590px;
+    bottom: 170px;
+}
+#img4{
+    width: 170px;
+    height: 170px;
+    border-top-left-radius: 139px;
+    position: relative;
+    top: 63px;
+    right: 57px;
+    transition: 0.3s ease-in-out;
+    transform-origin:bottom;
+}
+#img4:hover{
+    transform: scaleY(1.8) scaleX(1.8) translate(0%) ;
+}
+.identity{
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+    height: 320px;
+    overflow: hidden;
+}
+.identityclass{
+    position: relative;
+    left: 900px;
+    top: 180px;
+    width: 130px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+}
+.file-input {
+    display: none;
+}
+#img5{
+    width: 150px;
+    height: 280px;
+    float: right;
+    position: relative;
+    left: 28px;
+    transform-origin: bottom;
+    transition: 0.3s ease-in-out;
+    border-top-left-radius:300px;
+    border-top-right-radius:300px;
+}
+#img5:hover{
+    transform: scaleY(1.7) scaleX(1.7) translate(0%) ;
+}
+.identity p{
+    width: 800px;
+    height: 100px;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.Select{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    border: 1px solid black;
+    width: auto;
+    height: 300px;
+
+}
+.items{
+    position: relative;
+    left: 880px;
+}
+.labelitems{
+    display: inline-block;
+    position: relative;
+    left: 880px;
+}
+.Select p{
+    width: 800px;
+    height: 100px;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    bottom: 170px;
+    left: 10px;
+}
+#img6{
+    width: 150px;
+    height: 170px;
+    float: right;
+    position: relative;
+    right: 37px;
+    bottom: 185px;
+    transition: 0.3s ease-in-out;
+    transform-origin: bottom;
+    overflow: hidden;
+}
+#img6:hover{
+    transform: scaleY(1.7) scaleX(1.7) translate(0%);
+}
+.Conditions{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    height: 185px;
+}
+.buttonclass{
+    border-radius: 15px;
+    position: relative;
+    top: 20px;
+}
+.labelname{
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+#vid1{
+    width: 150px;
+    height: 320px;
+    float: right;
+    position: relative;
+    left: 210px;
+    bottom: 245px;
+}
+.Conditions p{
+    width: 800px;
+    height: 100px;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    bottom: 100px;
+    left: 270px;
+}
+.Submit{
+    height: 210px;
+    border:1px solid black;
+    background-color: white;
+    border-radius: 20px;
+    color:black;
+}
+#btn1{
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    position: relative;
+    bottom: 110px;
+    left: 40px;
+}
+.Submit h6{
+    position: relative;
+    top: 130px;
+    left: 10px;
+}
+#btn1:hover{
+    background-color: rgb(255, 0, 0);
+    color: black;
+    border: none;
+    transform: scale(1.1);
+} 
+
+@media only screen and (max-width:600px) {
+
+    *{
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .naam,
+    .email,
+    .phone,
+    .date,
+    .identity,
+    .Select,
+    .Conditions,
+    .Submit {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        overflow: visible;
+        padding-bottom: 20px;
+    }
+    #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5,
+    #img6 {
+        width: 120px;
+        height: auto;
+        position: static;
+        margin-top: 10px;
+    }
+    #img1:hover,
+    #img2:hover,
+    #img3:hover,
+    #img4:hover,
+    #img5:hover,
+    #img6:hover {
+        transform: scaleY(1.1) scaleX(1.1) translate(0%);
+    }
+    .naam p,
+    .email p,
+    .phone p,
+    .date p,
+    .identity p,
+    .Select p,
+    .Conditions p {
+        width: 90%;
+        position: static;
+        margin-top: 10px;
+    }
+    .nameclass,
+    .emailclass,
+    .phoneclass,
+    .dateclass,
+    .identityclass {
+        position: static;
+        width: 80%;
+        margin-top: 10px;
+    }
+    .items,
+    .labelitems {
+        position: static;
+        left: 0;
+    }
+    #vid1,
+    #vid2 {
+        width: 200px;
+        height: auto;
+        position: static;
+        margin-top: 10px;
+    }
+    #btn1 {
+        position: static;
+        margin-top: 20px;
+    }
+}
+
